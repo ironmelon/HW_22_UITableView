@@ -12,7 +12,6 @@
 		E3D5F88121554930008FBD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D5F88021554930008FBD2F /* Assets.xcassets */; };
 		E3D5F88421554930008FBD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D5F88221554930008FBD2F /* LaunchScreen.storyboard */; };
 		E3D5F88C21554D28008FBD2F /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F88B21554D28008FBD2F /* TopicsViewController.swift */; };
-		E3D5F890215556B8008FBD2F /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F88F215556B8008FBD2F /* Topic.swift */; };
 		E3D5F89221555B77008FBD2F /* MockGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F89121555B77008FBD2F /* MockGenerator.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		E3D5F88321554930008FBD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3D5F88521554930008FBD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3D5F88B21554D28008FBD2F /* TopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
-		E3D5F88F215556B8008FBD2F /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		E3D5F89121555B77008FBD2F /* MockGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +58,6 @@
 			children = (
 				E3D5F8792155492C008FBD2F /* AppDelegate.swift */,
 				E3D5F88B21554D28008FBD2F /* TopicsViewController.swift */,
-				E3D5F88F215556B8008FBD2F /* Topic.swift */,
 				E3D5F89121555B77008FBD2F /* MockGenerator.swift */,
 				E3D5F87D2155492C008FBD2F /* Main.storyboard */,
 				E3D5F88021554930008FBD2F /* Assets.xcassets */,
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3D5F88C21554D28008FBD2F /* TopicsViewController.swift in Sources */,
-				E3D5F890215556B8008FBD2F /* Topic.swift in Sources */,
 				E3D5F87A2155492C008FBD2F /* AppDelegate.swift in Sources */,
 				E3D5F89221555B77008FBD2F /* MockGenerator.swift in Sources */,
 			);
