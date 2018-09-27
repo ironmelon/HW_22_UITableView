@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3154BD9215B2A59005D2E29 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3154BD8215B2A59005D2E29 /* Animal.swift */; };
 		E3D5F87A2155492C008FBD2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F8792155492C008FBD2F /* AppDelegate.swift */; };
 		E3D5F87F2155492C008FBD2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D5F87D2155492C008FBD2F /* Main.storyboard */; };
 		E3D5F88121554930008FBD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D5F88021554930008FBD2F /* Assets.xcassets */; };
 		E3D5F88421554930008FBD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D5F88221554930008FBD2F /* LaunchScreen.storyboard */; };
-		E3D5F88C21554D28008FBD2F /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F88B21554D28008FBD2F /* TopicsViewController.swift */; };
 		E3D5F89221555B77008FBD2F /* MockGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F89121555B77008FBD2F /* MockGenerator.swift */; };
+		E3D5F894215AF407008FBD2F /* AnimalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F893215AF407008FBD2F /* AnimalListViewController.swift */; };
+		E3D5F896215AF469008FBD2F /* AnimalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F895215AF469008FBD2F /* AnimalDetailViewController.swift */; };
+		E3D5F898215AFABC008FBD2F /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F897215AFABC008FBD2F /* AnimalTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3154BD8215B2A59005D2E29 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		E3D5F8762155492B008FBD2F /* HW_22_UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_22_UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D5F8792155492C008FBD2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3D5F87E2155492C008FBD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3D5F88021554930008FBD2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3D5F88321554930008FBD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3D5F88521554930008FBD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3D5F88B21554D28008FBD2F /* TopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
 		E3D5F89121555B77008FBD2F /* MockGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockGenerator.swift; sourceTree = "<group>"; };
+		E3D5F893215AF407008FBD2F /* AnimalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewController.swift; sourceTree = "<group>"; };
+		E3D5F895215AF469008FBD2F /* AnimalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailViewController.swift; sourceTree = "<group>"; };
+		E3D5F897215AFABC008FBD2F /* AnimalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				E3D5F8792155492C008FBD2F /* AppDelegate.swift */,
-				E3D5F88B21554D28008FBD2F /* TopicsViewController.swift */,
+				E3D5F893215AF407008FBD2F /* AnimalListViewController.swift */,
+				E3D5F895215AF469008FBD2F /* AnimalDetailViewController.swift */,
+				E3D5F897215AFABC008FBD2F /* AnimalTableViewCell.swift */,
+				E3154BD8215B2A59005D2E29 /* Animal.swift */,
 				E3D5F89121555B77008FBD2F /* MockGenerator.swift */,
 				E3D5F87D2155492C008FBD2F /* Main.storyboard */,
 				E3D5F88021554930008FBD2F /* Assets.xcassets */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3D5F88C21554D28008FBD2F /* TopicsViewController.swift in Sources */,
 				E3D5F87A2155492C008FBD2F /* AppDelegate.swift in Sources */,
+				E3D5F894215AF407008FBD2F /* AnimalListViewController.swift in Sources */,
+				E3D5F896215AF469008FBD2F /* AnimalDetailViewController.swift in Sources */,
+				E3D5F898215AFABC008FBD2F /* AnimalTableViewCell.swift in Sources */,
 				E3D5F89221555B77008FBD2F /* MockGenerator.swift in Sources */,
+				E3154BD9215B2A59005D2E29 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

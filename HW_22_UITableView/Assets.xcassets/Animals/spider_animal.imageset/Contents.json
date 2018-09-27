@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "jetCoder.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "spider_animal.jpg",
       "scale" : "2x"
     },
     {
