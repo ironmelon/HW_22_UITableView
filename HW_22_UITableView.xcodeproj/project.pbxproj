@@ -7,17 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E35A7C0F215C885D008597D4 /* ArmedForcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A7C0E215C885D008597D4 /* ArmedForcesViewController.swift */; };
+		E35A7C11215C8909008597D4 /* ModelsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A7C10215C8909008597D4 /* ModelsListViewController.swift */; };
+		E35A7C13215C8936008597D4 /* ModelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A7C12215C8936008597D4 /* ModelDetailViewController.swift */; };
+		E35A7C15215C97BA008597D4 /* MilitaryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A7C14215C97BA008597D4 /* MilitaryCellTableViewCell.swift */; };
+		E35A7C17215C9A8F008597D4 /* ModelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A7C16215C9A8F008597D4 /* ModelsTableViewCell.swift */; };
+		E36EF85621663E2D00836227 /* TypeOfTroops.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36EF85521663E2D00836227 /* TypeOfTroops.swift */; };
+		E394ECE6215CA3D300D1CBF9 /* ArmedUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394ECE5215CA3D300D1CBF9 /* ArmedUnit.swift */; };
+		E394ECE8215CA58B00D1CBF9 /* MockGeneretion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E394ECE7215CA58B00D1CBF9 /* MockGeneretion.swift */; };
 		E3D5F87A2155492C008FBD2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F8792155492C008FBD2F /* AppDelegate.swift */; };
-		E3D5F87C2155492C008FBD2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5F87B2155492C008FBD2F /* ViewController.swift */; };
 		E3D5F87F2155492C008FBD2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D5F87D2155492C008FBD2F /* Main.storyboard */; };
 		E3D5F88121554930008FBD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D5F88021554930008FBD2F /* Assets.xcassets */; };
 		E3D5F88421554930008FBD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D5F88221554930008FBD2F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E35A7C0E215C885D008597D4 /* ArmedForcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmedForcesViewController.swift; sourceTree = "<group>"; };
+		E35A7C10215C8909008597D4 /* ModelsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsListViewController.swift; sourceTree = "<group>"; };
+		E35A7C12215C8936008597D4 /* ModelDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDetailViewController.swift; sourceTree = "<group>"; };
+		E35A7C14215C97BA008597D4 /* MilitaryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitaryCellTableViewCell.swift; sourceTree = "<group>"; };
+		E35A7C16215C9A8F008597D4 /* ModelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTableViewCell.swift; sourceTree = "<group>"; };
+		E36EF85521663E2D00836227 /* TypeOfTroops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfTroops.swift; sourceTree = "<group>"; };
+		E394ECE5215CA3D300D1CBF9 /* ArmedUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmedUnit.swift; sourceTree = "<group>"; };
+		E394ECE7215CA58B00D1CBF9 /* MockGeneretion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGeneretion.swift; sourceTree = "<group>"; };
 		E3D5F8762155492B008FBD2F /* HW_22_UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_22_UITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D5F8792155492C008FBD2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3D5F87B2155492C008FBD2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3D5F87E2155492C008FBD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3D5F88021554930008FBD2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3D5F88321554930008FBD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E36EF85321663D7400836227 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E394ECE5215CA3D300D1CBF9 /* ArmedUnit.swift */,
+				E36EF85521663E2D00836227 /* TypeOfTroops.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E394ECE4215CA32600D1CBF9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E35A7C14215C97BA008597D4 /* MilitaryCellTableViewCell.swift */,
+				E35A7C16215C9A8F008597D4 /* ModelsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		E3D5F86D2155492A008FBD2F = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				E3D5F8792155492C008FBD2F /* AppDelegate.swift */,
-				E3D5F87B2155492C008FBD2F /* ViewController.swift */,
+				E35A7C0E215C885D008597D4 /* ArmedForcesViewController.swift */,
+				E35A7C10215C8909008597D4 /* ModelsListViewController.swift */,
+				E35A7C12215C8936008597D4 /* ModelDetailViewController.swift */,
+				E394ECE7215CA58B00D1CBF9 /* MockGeneretion.swift */,
+				E36EF85321663D7400836227 /* Models */,
+				E394ECE4215CA32600D1CBF9 /* Cells */,
 				E3D5F87D2155492C008FBD2F /* Main.storyboard */,
 				E3D5F88021554930008FBD2F /* Assets.xcassets */,
 				E3D5F88221554930008FBD2F /* LaunchScreen.storyboard */,
@@ -135,8 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3D5F87C2155492C008FBD2F /* ViewController.swift in Sources */,
+				E35A7C11215C8909008597D4 /* ModelsListViewController.swift in Sources */,
+				E36EF85621663E2D00836227 /* TypeOfTroops.swift in Sources */,
+				E394ECE8215CA58B00D1CBF9 /* MockGeneretion.swift in Sources */,
+				E35A7C17215C9A8F008597D4 /* ModelsTableViewCell.swift in Sources */,
+				E35A7C15215C97BA008597D4 /* MilitaryCellTableViewCell.swift in Sources */,
+				E35A7C13215C8936008597D4 /* ModelDetailViewController.swift in Sources */,
+				E35A7C0F215C885D008597D4 /* ArmedForcesViewController.swift in Sources */,
 				E3D5F87A2155492C008FBD2F /* AppDelegate.swift in Sources */,
+				E394ECE6215CA3D300D1CBF9 /* ArmedUnit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
